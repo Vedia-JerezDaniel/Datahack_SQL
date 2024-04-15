@@ -6,15 +6,15 @@ La tabla de relación "Work_Pacient" no necesita identitys = Yes, porque son var
 
 
 
-| SEMANA | SESION FINAL |
-| ------ | ------------ |
-| 1      | 4            |
-| 2      | 12           |
-| 3      | 17           |
-| 4      | 22           |
-| 5      | 28           |
-| 6      | 31           |
-|        |              |
+| SEMANA       | SESION FINAL |
+| ------------ | ------------ |
+| 0 - 9 Abril  | 4            |
+| 1 - 16 Abril | 5 - 12       |
+| 2 - 23 Abril | 13 - 17      |
+| 3 - 30 Abril | 18 - 22      |
+| 4 - 07 Mayo  | 23- 28       |
+| 5 - 14 Mayo  | 31           |
+|              |              |
 
 
 
