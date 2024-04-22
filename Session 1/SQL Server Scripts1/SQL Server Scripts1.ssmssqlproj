@@ -43,6 +43,12 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>ejemplos_declare.sql</FullPath>
         </FileNode>
+        <FileNode Name="estructura.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>estructura.sql</FullPath>
+        </FileNode>
         <FileNode Name="proc.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
