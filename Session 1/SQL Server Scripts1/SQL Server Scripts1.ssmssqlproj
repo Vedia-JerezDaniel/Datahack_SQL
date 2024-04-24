@@ -49,11 +49,29 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>estructura.sql</FullPath>
         </FileNode>
+        <FileNode Name="operations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>operations.sql</FullPath>
+        </FileNode>
         <FileNode Name="proc.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>proc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="S13-ALTA_Paciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>S13-ALTA_Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="S13-ALTA_Turnos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>S13-ALTA_Turnos.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery3.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DANI_PMI\SQLSERVER:False:sa</AssociatedConnectionMoniker>

@@ -50,14 +50,27 @@
 
 --##### RETURN AND BREAK
 
-declare @count int=0
-while @count <= 10
-begin
-	print @count
-	set @count = @count+1
-	if @count = 3 
-		return -- sale de la condición
-		--break
-	else
-		print 'out'
-end
+--declare @count int=0
+--while @count <= 10
+--begin
+--	print @count
+--	set @count = @count+1
+--	if @count = 3 
+--		return -- sale de la condición
+--		--break
+--	else
+--		print 'out'
+--end
+
+--### BEGIN TRY CATCH
+
+
+
+BEGIN TRY
+	declare @count_t int=0
+	SET @count_t = 'int'
+END TRY
+
+BEGIN CATCH
+	PRINT 'STRING ASSIGNED TO INT VARIABLE'
+END CATCH
