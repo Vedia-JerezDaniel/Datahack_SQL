@@ -1,13 +1,13 @@
 
-/*
-select * from turno
-select * from paciente
-select * from turnopaciente
-select * from medico
-insert into medico values(2,'Pablo','Ramirez')
-*/
 
---EXEC ALTA_turno '20190218 09:15',6,1,'Nada'
+--select * from work
+select * from pacient
+--select * from work_pacient
+--select * from doctor
+--insert into medico values(2,'Pablo','Ramirez')
+
+
+EXEC ALTA_Work '20190218 09:15',13,1,'Nada'
 
 CREATE proc ALTA_Work(
 			@etl_work char(14), --20190215 12:00
@@ -31,11 +31,12 @@ BEGIN
 	INSERT INTO Work (ETL_WORK,STATUS,OBSERVACION)
 	VALUES (@etl_work,0,@observacion)
 
-	declare @auxIdturno turno
-	set @auxIdturno = @@IDENTITY
+	declare @auxIdwork work
+	set @auxIdwork = @@IDENTITY
+	--@@identity variable de sistema
 
-	INSERT INTO TurnoPaciente (idturno,idpaciente,idmedico)
-	VALUES (@auxIdturno,@idpaciente,@idmedico)
+	INSERT INTO work_pacient (id_work,id_pacient,id_doctor)
+	VALUES (@auxIdwork,@id_pacient,@id_doctor)
 
 	print 'Id_work was added correctly'
 	return

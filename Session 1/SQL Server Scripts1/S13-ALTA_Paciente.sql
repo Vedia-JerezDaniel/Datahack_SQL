@@ -1,6 +1,6 @@
 
 --birthday como varchar(8), definida como estandar
-exec ALTA_Paciente '2324324','Jorge','Lopez','20180518','calle 1','PER','','jz@mail.com','';
+--exec ALTA_Paciente '2324324','Jorge','Lopez','20180518','calle 1','PER','','jz@mail.com','';
 
 --en caso de existir, añadir un alter
 
