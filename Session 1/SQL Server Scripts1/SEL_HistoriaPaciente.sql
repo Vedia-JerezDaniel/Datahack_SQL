@@ -1,0 +1,40 @@
+
+exec SEL_HistoriaPaciente 5
+
+
+--select * from history
+--select * from RECORDS
+
+
+CREATE PROC SEL_HistoriaPaciente(@idpacient pacient)
+
+AS
+set nocount on
+
+
+IF exists(SELECT * from Pacient P
+				INNER JOIN RECORDS HP
+				ON HP.ID_PACIENT = P.ID_PACIENT
+				INNER JOIN HISTORY H
+				ON H.ID_HISTORY = HP.ID_HISTORY
+				INNER JOIN DOCTOR_SPECIALITY ME
+				ON ME.ID_DOCTOR = HP.ID_DOCTOR
+				INNER JOIN DOCTOR M
+				ON M.ID_DOCTOR = ME.ID_DOCTOR
+				WHERE P.ID_PACIENT = @idpacient)
+
+	SELECT * from Pacient P
+	INNER JOIN RECORDS HP
+	ON HP.ID_PACIENT = P.ID_PACIENT
+	INNER JOIN HISTORY H
+	ON H.ID_HISTORY = HP.ID_HISTORY
+	INNER JOIN DOCTOR_SPECIALITY ME
+	ON ME.ID_DOCTOR = HP.ID_DOCTOR
+	INNER JOIN DOCTOR M
+	ON M.ID_DOCTOR = ME.ID_DOCTOR
+	WHERE P.ID_PACIENT = @idpacient
+ELSE
+	print 'No recors found for pacient'
+	select 0 as resultado
+
+

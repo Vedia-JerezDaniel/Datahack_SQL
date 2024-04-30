@@ -37,6 +37,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="DEL_Turno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>DEL_Turno.sql</FullPath>
+        </FileNode>
         <FileNode Name="ejemplos_declare.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
@@ -73,6 +79,24 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>S13-ALTA_Turnos.sql</FullPath>
         </FileNode>
+        <FileNode Name="SEL_HistoriaPaciente.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SEL_HistoriaPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_speciality.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SEL_speciality.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_TurnosPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SEL_TurnosPaciente.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery3.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DANI_PMI\SQLSERVER:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DANI_PMI\SQLSERVER</AssociatedConnSrvName>
@@ -84,6 +108,18 @@
           <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>test_proc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Paciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>UPD_Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Turno.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UPD_Turno.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -65,3 +65,18 @@ INSERT INTO [dbo].[WORK]
      VALUES ('2024-02-12','5',NULL), ('2024-05-14','6',NULL)
 
 select * from WORK where status in (0,1,5)
+
+
+insert INTO HISTORY(TIMESTAMP,OBSERVATION)
+VALUES ('2019-02-22 16:00', 'Good')
+
+insert INTO HISTORY(TIMESTAMP,OBSERVATION)
+VALUES ('2019-02-22 16:00', 'Good')
+
+insert INTO RECORDS(ID_HISTORY,ID_PACIENT,ID_DOCTOR)
+VALUES ('1','12','1'), ('2','5','3')
+
+select * from RECORDS
+
+insert INTO SPECIALITY(SPECIALITY)
+VALUES ('Demartologist'), ('Dentist')
