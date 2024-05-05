@@ -1,0 +1,19 @@
+create view pacient_work as
+select p.EMAIL,p.NAME,p.LAST_NAME,w.STATUS,w.OBSERVACION from PACIENT p
+inner join WORK_PACIENT wp
+on wp.ID_PACIENT = p.ID_PACIENT
+inner join WORK w
+on w.ID_WORK = wp.ID_WORK
+where ISNULL(w.STATUS,0) = 0
+
+
+select * from pacient_work
+
+
+SELECT  dbo.PACIENT.NAME, dbo.PACIENT.LAST_NAME, dbo.PACIENT.PHONE, dbo.PACIENT.OBSERVATION, dbo.[WORK].STATUS, dbo.[WORK].OBSERVACION
+FROM  dbo.PACIENT INNER JOIN
+  dbo.WORK_PACIENT ON dbo.PACIENT.ID_PACIENT = dbo.WORK_PACIENT.ID_PACIENT INNER JOIN
+  dbo.[WORK] ON dbo.WORK_PACIENT.ID_WORK = dbo.[WORK].ID_WORK
+WHERE (ISNULL(dbo.[WORK].STATUS, 0) = 0)
+
+select * from temp_view

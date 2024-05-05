@@ -55,6 +55,12 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>estructura.sql</FullPath>
         </FileNode>
+        <FileNode Name="Funciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Funciones.sql</FullPath>
+        </FileNode>
         <FileNode Name="operations.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
@@ -102,6 +108,12 @@
           <AssociatedConnSrvName>DANI_PMI\SQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="temp_table.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Z\SQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>temp_table.sql</FullPath>
         </FileNode>
         <FileNode Name="test_proc.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Z\SQLSERVER:False:sa</AssociatedConnectionMoniker>
