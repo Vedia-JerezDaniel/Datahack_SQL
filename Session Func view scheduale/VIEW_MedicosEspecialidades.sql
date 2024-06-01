@@ -1,0 +1,11 @@
+
+
+
+--select * from VIEW_doctor_speciality
+
+
+CREATE VIEW VIEW_doctor_speciality AS
+
+select M.ID_DOCTOR,M.NAME,M.LASTNAME,ME.ID_SPECIALITY,ME.DESCRIPTION from DOCTOR M
+inner join DOCTOR_SPECIALITY ME
+on ME.ID_DOCTOR= M.ID_DOCTOR
